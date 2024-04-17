@@ -14,7 +14,6 @@ export default function Scanner({ setScanResult }) {
     scanner.render(success, error);
 
     function success(result) {
-      scanner.clear();
       setScanResult(result);
     }
 

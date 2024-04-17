@@ -1,25 +1,26 @@
 import { useEffect, useState } from "react";
 import Scanner from "./comps/scanner";
-import barcodelookup from "./services/barcodelookup";
 
 export default function App() {
   const [scanResult, setScanResult] = useState(null);
+  const [points, setPoints] = useState(0);
 
   useEffect(() => {
     if (scanResult) {
-      barcodelookup(scanResult);
+      const newValue = points + 1;
+      setPoints(newValue);
     }
   }, [scanResult]);
 
-  function test() {
-    barcodelookup("7622300683269");
-  }
-
   return (
     <div className="w-full h-screen flex justify-center items-center">
-      <button onClick={test}>Click me</button>
-      <Scanner setScanResult={setScanResult} />
-      {scanResult ? <div>Success: {scanResult}</div> : <div></div>}
+      <div>
+        <div className="flex justify-center">Points: {points}</div>
+        <div>
+          <Scanner setScanResult={setScanResult} />
+        </div>
+        {scanResult ? <div>Success: {scanResult}</div> : <div></div>}
+      </div>
     </div>
   );
 }
