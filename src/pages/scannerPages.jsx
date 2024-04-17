@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import Scanner from "../comps/scanner";
+import { usePoints } from "../hooks/PointsProvider";
 
 export default function ScannerPage({}) {
   const [scanResult, setScanResult] = useState(null);
-  const [points, setPoints] = useState(0);
+  const { points, addPoints, removePoints } = usePoints(); // Corrected destructuring
 
   useEffect(() => {
     if (scanResult) {
-      const newValue = points + 1;
-      setPoints(newValue);
+      addPoints(1);
     }
   }, [scanResult]);
 
