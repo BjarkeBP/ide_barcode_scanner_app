@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ide_barcode_scanner_app/static/css/main.a29983b7.css",
-    "main.js": "/ide_barcode_scanner_app/static/js/main.b7763388.js",
+    "main.css": "/ide_barcode_scanner_app/static/css/main.86bbfcff.css",
+    "main.js": "/ide_barcode_scanner_app/static/js/main.cc7db22d.js",
     "index.html": "/ide_barcode_scanner_app/index.html",
-    "main.a29983b7.css.map": "/ide_barcode_scanner_app/static/css/main.a29983b7.css.map",
-    "main.b7763388.js.map": "/ide_barcode_scanner_app/static/js/main.b7763388.js.map"
+    "main.86bbfcff.css.map": "/ide_barcode_scanner_app/static/css/main.86bbfcff.css.map",
+    "main.cc7db22d.js.map": "/ide_barcode_scanner_app/static/js/main.cc7db22d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a29983b7.css",
-    "static/js/main.b7763388.js"
+    "static/css/main.86bbfcff.css",
+    "static/js/main.cc7db22d.js"
   ]
 }
