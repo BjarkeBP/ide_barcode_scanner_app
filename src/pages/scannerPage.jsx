@@ -15,8 +15,7 @@ export default function ScannerPage({}) {
   return (
     <div className="flex justify-center items-center">
       <div>
-        <div className="mt-16 flex justify-center">Points: {points}</div>
-        <div>
+        <div className="mt-32">
           <Scanner setScanResult={setScanResult} />
         </div>
         {scanResult ? <div>Success: {scanResult}</div> : <div></div>}
