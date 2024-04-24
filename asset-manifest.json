@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/ide_barcode_scanner_app/static/css/main.86bbfcff.css",
-    "main.js": "/ide_barcode_scanner_app/static/js/main.f39203d5.js",
+    "main.css": "/ide_barcode_scanner_app/static/css/main.ccff7f5e.css",
+    "main.js": "/ide_barcode_scanner_app/static/js/main.45f36315.js",
+    "static/media/Mms.png": "/ide_barcode_scanner_app/static/media/Mms.f460764a0e2b290437e4.png",
+    "static/media/Doritos.png": "/ide_barcode_scanner_app/static/media/Doritos.a56cdca1297226083417.png",
+    "static/media/TuborgClassic.png": "/ide_barcode_scanner_app/static/media/TuborgClassic.cce724a2fcca82886c1b.png",
+    "static/media/CocaCoal.png": "/ide_barcode_scanner_app/static/media/CocaCoal.468bb46975ed0bae8e2e.png",
+    "static/media/FaxeKondiBooster.png": "/ide_barcode_scanner_app/static/media/FaxeKondiBooster.56e3c7fad6834656fe06.png",
+    "static/media/ZalandoGavekort.png": "/ide_barcode_scanner_app/static/media/ZalandoGavekort.d7d79bc4bc44c546fd36.png",
     "index.html": "/ide_barcode_scanner_app/index.html",
-    "main.86bbfcff.css.map": "/ide_barcode_scanner_app/static/css/main.86bbfcff.css.map",
-    "main.f39203d5.js.map": "/ide_barcode_scanner_app/static/js/main.f39203d5.js.map"
+    "main.ccff7f5e.css.map": "/ide_barcode_scanner_app/static/css/main.ccff7f5e.css.map",
+    "main.45f36315.js.map": "/ide_barcode_scanner_app/static/js/main.45f36315.js.map"
   },
   "entrypoints": [
-    "static/css/main.86bbfcff.css",
-    "static/js/main.f39203d5.js"
+    "static/css/main.ccff7f5e.css",
+    "static/js/main.45f36315.js"
   ]
 }
